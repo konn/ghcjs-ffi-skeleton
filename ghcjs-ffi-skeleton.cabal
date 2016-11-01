@@ -1,0 +1,21 @@
+name:                ghcjs-ffi-skeleton
+version:             0.1.0.0
+synopsis:            Simple project template from stack
+description:         Please see README.md
+homepage:            https://github.com/konn/ghcjs-ffi-skeleton#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Hiromi ISHII
+maintainer:          konn.jinro _at_ gmail.com
+copyright:           2015 (c) Hiromi ISHII
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable ghcjs-ffi-skeleton
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , haskell-src-exts
+  ghc-options:         -Wall -threaded -O2
